@@ -1,0 +1,30 @@
+{
+  "name": "myrss",
+  "version": "0.0.2",
+  "description": "just get the rss json by url",
+  "main": "myrss.js",
+  "dependencies": {
+    "xml2js": "~0.2.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ftft1885/myrss"
+  },
+  "keywords": [
+    "rss"
+  ],
+  "author": {
+    "name": "ft"
+  },
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "readme": "#MYRSS\r\n\r\n##Introduction\r\n\r\ngoogle reader will close？\r\n\r\nwe just want to get RSS\r\n\r\n##Installation\r\n\r\n\tnpm install myrss\r\n\r\n##API\r\n\t\r\n\tvar url = \"http://cn.engadget.com/\";\r\n\t\r\n\tmyrss(url,function(result){\r\n\t\tconsole.log(result);\r\n\t})\r\n\r\n##TODO\r\n\r\nThere is too many bugs\r\n\r\n1. cannot afford redirect\r\n\r\n2. only support Atom and RSS version 2.0\r\n\r\nand so on\r\n\t\r\n###License\r\n\r\nReleased under the license of MIT, welcome to enjoy open source.\r\n\r\n",
+  "_id": "myrss@0.0.2",
+  "dist": {
+    "shasum": "8a855ad048e574103bdd4dc2d36aa897380c1797"
+  },
+  "_from": "myrss"
+}
